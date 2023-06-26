@@ -1,0 +1,10 @@
+Pokemon,HP,defense,atack,Move
+Charizard,100,10,20,ember.smokes_screen
+Pidgey,80,10,15,gust.sand_attack
+Ivysaur,80,10,15,growl.takle
+Squirtle,80,20,10,harden.scratch
+Caterpie,90,10,10,tailwip.tackle
+Weedle,90,10,10,tailwip.tackle
+Rattata,80,10,20,tackle.growl
+Spearow,80,10,15,peck.sand_attack
+Ekans,70,10,35,bite.wrap
