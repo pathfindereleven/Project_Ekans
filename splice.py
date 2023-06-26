@@ -99,7 +99,7 @@ os.chdir(os.path.dirname(os.path.realpath(__file__))) # adjust path
 with open(CSV_PATH) as csvfile:
     csvreader = csv.reader(csvfile)
     next(csvreader)  # skip header
-    moves_data = list(csvreader)   # save all data to caracter_data
+    moves_data = list(csvreader)   # save all data to moves_data
 
 
  
@@ -122,11 +122,9 @@ while (int(p2hp) > 0) and (int(p1hp) > 0):              # while loop continues w
     print("pica used.... " + p1move[int(movechoice) ] )
   #  move results calculation
     if movechoice == "0":
-        results = tackle - onyxd
-        print("onyx looses" + str(results) + " health" )
-        if (results > 0):
-            onyxhp = onyxhp - results
-        print("onyx health is now  " + str(onyxhp) + " points")
+               #search move_data by p1move[int(movechoice) maybe?
+               # set target value to oppenets stat type
+               #figure combat results
     if movechoice == "1":
         results = onyxd - tailwip
         print("onyx looses " + str(results) + " defense")
